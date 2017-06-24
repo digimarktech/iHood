@@ -15,6 +15,8 @@ class MapViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+            getReportsData()
+        
             self.view = mapKit
     }
 
