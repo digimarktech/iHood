@@ -10,6 +10,7 @@ pod 'Firebase/Core'
 pod ‘Firebase/Database’
 pod ‘Firebase/Auth’
 pod 'Cosmos'
+pod 'SnapKit', '~> 3.2.0'
   # Pods for iHood
 
 end
