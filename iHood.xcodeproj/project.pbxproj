@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FC37FE8CB170596AA5E8B0B /* Pods_iHood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B479DF76B2DE4348B13E0A0 /* Pods_iHood.framework */; };
+		A2FEBA6D1EFF0C45008D0809 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2FEBA6C1EFF0C45008D0809 /* GoogleService-Info.plist */; };
 		BD07883C1EFF09AC0028C30D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD07883B1EFF09AC0028C30D /* AppDelegate.swift */; };
-		BD07883E1EFF09AC0028C30D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD07883D1EFF09AC0028C30D /* ViewController.swift */; };
-		BD0788411EFF09AC0028C30D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD07883F1EFF09AC0028C30D /* Main.storyboard */; };
+		BD07883E1EFF09AC0028C30D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD07883D1EFF09AC0028C30D /* MapViewController.swift */; };
 		BD0788431EFF09AC0028C30D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD0788421EFF09AC0028C30D /* Assets.xcassets */; };
 		BD0788461EFF09AC0028C30D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD0788441EFF09AC0028C30D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B479DF76B2DE4348B13E0A0 /* Pods_iHood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iHood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AB9E6288F0BECF449471418 /* Pods-iHood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iHood.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iHood/Pods-iHood.debug.xcconfig"; sourceTree = "<group>"; };
+		A2FEBA6C1EFF0C45008D0809 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B3FBD97802B4D3A87F665F78 /* Pods-iHood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iHood.release.xcconfig"; path = "Pods/Target Support Files/Pods-iHood/Pods-iHood.release.xcconfig"; sourceTree = "<group>"; };
 		BD0788381EFF09AC0028C30D /* iHood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD07883B1EFF09AC0028C30D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BD07883D1EFF09AC0028C30D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BD0788401EFF09AC0028C30D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD07883D1EFF09AC0028C30D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		BD0788421EFF09AC0028C30D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD0788451EFF09AC0028C30D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD0788471EFF09AC0028C30D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -29,17 +33,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FC37FE8CB170596AA5E8B0B /* Pods_iHood.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53A41094B1340CDFD460539B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AB9E6288F0BECF449471418 /* Pods-iHood.debug.xcconfig */,
+				B3FBD97802B4D3A87F665F78 /* Pods-iHood.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BD07882F1EFF09AC0028C30D = {
 			isa = PBXGroup;
 			children = (
 				BD07883A1EFF09AC0028C30D /* iHood */,
 				BD0788391EFF09AC0028C30D /* Products */,
+				53A41094B1340CDFD460539B /* Pods */,
+				DA1DA960062AF28059BF8779 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +71,21 @@
 			isa = PBXGroup;
 			children = (
 				BD07883B1EFF09AC0028C30D /* AppDelegate.swift */,
-				BD07883D1EFF09AC0028C30D /* ViewController.swift */,
-				BD07883F1EFF09AC0028C30D /* Main.storyboard */,
+				BD07883D1EFF09AC0028C30D /* MapViewController.swift */,
 				BD0788421EFF09AC0028C30D /* Assets.xcassets */,
 				BD0788441EFF09AC0028C30D /* LaunchScreen.storyboard */,
 				BD0788471EFF09AC0028C30D /* Info.plist */,
+				A2FEBA6C1EFF0C45008D0809 /* GoogleService-Info.plist */,
 			);
 			path = iHood;
+			sourceTree = "<group>";
+		};
+		DA1DA960062AF28059BF8779 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B479DF76B2DE4348B13E0A0 /* Pods_iHood.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD07884A1EFF09AC0028C30D /* Build configuration list for PBXNativeTarget "iHood" */;
 			buildPhases = (
+				B43006047945BD06D3140EFB /* [CP] Check Pods Manifest.lock */,
 				BD0788341EFF09AC0028C30D /* Sources */,
 				BD0788351EFF09AC0028C30D /* Frameworks */,
 				BD0788361EFF09AC0028C30D /* Resources */,
+				DF72C553A4B08D220D5F8186 /* [CP] Embed Pods Frameworks */,
+				7C62CEC80137442702E3CC9B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +123,6 @@
 				TargetAttributes = {
 					BD0788371EFF09AC0028C30D = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 4T87K25SZU;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,19 +151,67 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD0788461EFF09AC0028C30D /* LaunchScreen.storyboard in Resources */,
+				A2FEBA6D1EFF0C45008D0809 /* GoogleService-Info.plist in Resources */,
 				BD0788431EFF09AC0028C30D /* Assets.xcassets in Resources */,
-				BD0788411EFF09AC0028C30D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C62CEC80137442702E3CC9B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iHood/Pods-iHood-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B43006047945BD06D3140EFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DF72C553A4B08D220D5F8186 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iHood/Pods-iHood-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BD0788341EFF09AC0028C30D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD07883E1EFF09AC0028C30D /* ViewController.swift in Sources */,
+				BD07883E1EFF09AC0028C30D /* MapViewController.swift in Sources */,
 				BD07883C1EFF09AC0028C30D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,14 +219,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BD07883F1EFF09AC0028C30D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BD0788401EFF09AC0028C30D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BD0788441EFF09AC0028C30D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -261,9 +327,10 @@
 		};
 		BD07884B1EFF09AC0028C30D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AB9E6288F0BECF449471418 /* Pods-iHood.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4T87K25SZU;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = iHood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.digimarktech.iHood;
@@ -274,9 +341,10 @@
 		};
 		BD07884C1EFF09AC0028C30D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3FBD97802B4D3A87F665F78 /* Pods-iHood.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4T87K25SZU;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = iHood/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.digimarktech.iHood;
@@ -304,6 +372,7 @@
 				BD07884C1EFF09AC0028C30D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
