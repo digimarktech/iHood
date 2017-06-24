@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>1081197933766-6jg6ofdline2g2cah8k3dv6ev6envjcs.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1081197933766-6jg6ofdline2g2cah8k3dv6ev6envjcs</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA62ajuA8hQe0ol9i-7PlQl4hCjfiZudE4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1081197933766</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.digimarktech.iHood</string>
+	<key>PROJECT_ID</key>
+	<string>ihood-c72ee</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ihood-c72ee.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1081197933766:ios:859e383e165d8fd8</string>
+	<key>DATABASE_URL</key>
+	<string>https://ihood-c72ee.firebaseio.com</string>
+</dict>
+</plist>
