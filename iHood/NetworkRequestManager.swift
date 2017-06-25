@@ -11,7 +11,7 @@ import Foundation
 
 func getReportsData() {
     
-    let apiURL = "https://data.cityofnewyork.us/resource/9s4h-37hy.json"
+    let apiURL = "https://data.cityofnewyork.us/resource/57mv-nv28.json"
     
     let url = URL(string: apiURL)!
 
@@ -24,13 +24,13 @@ func getReportsData() {
         }
         else { return }
         
-        if let decodedJSON = try? JSONSerialization.jsonObject(with: reqData, options: []) as! [AnyObject] {
+        if let decodedJSON = try? JSONSerialization.jsonObject(with: reqData, options: []) as? [AnyObject] {
             
             json = try! JSONSerialization.jsonObject(with: reqData, options: []) as! [AnyObject]
             
         } else { return }
         
-        print(json)
+        parseJSON(jsonData: json)
         
         }.resume()
 }

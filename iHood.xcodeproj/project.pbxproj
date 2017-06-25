@@ -10,6 +10,7 @@
 		5FC37FE8CB170596AA5E8B0B /* Pods_iHood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B479DF76B2DE4348B13E0A0 /* Pods_iHood.framework */; };
 		A2FEBA6D1EFF0C45008D0809 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2FEBA6C1EFF0C45008D0809 /* GoogleService-Info.plist */; };
 		B288DA4F1EFF12AC00F14ED8 /* NetworkRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B288DA4E1EFF12AC00F14ED8 /* NetworkRequestManager.swift */; };
+		B288DA511EFF1F6100F14ED8 /* MapAnnotationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B288DA501EFF1F6100F14ED8 /* MapAnnotationManager.swift */; };
 		BD07883C1EFF09AC0028C30D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD07883B1EFF09AC0028C30D /* AppDelegate.swift */; };
 		BD07883E1EFF09AC0028C30D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD07883D1EFF09AC0028C30D /* MapViewController.swift */; };
 		BD0788431EFF09AC0028C30D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD0788421EFF09AC0028C30D /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 		5AB9E6288F0BECF449471418 /* Pods-iHood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iHood.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iHood/Pods-iHood.debug.xcconfig"; sourceTree = "<group>"; };
 		A2FEBA6C1EFF0C45008D0809 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B288DA4E1EFF12AC00F14ED8 /* NetworkRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequestManager.swift; sourceTree = "<group>"; };
+		B288DA501EFF1F6100F14ED8 /* MapAnnotationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapAnnotationManager.swift; sourceTree = "<group>"; };
 		B3FBD97802B4D3A87F665F78 /* Pods-iHood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iHood.release.xcconfig"; path = "Pods/Target Support Files/Pods-iHood/Pods-iHood.release.xcconfig"; sourceTree = "<group>"; };
 		BD0788381EFF09AC0028C30D /* iHood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD07883B1EFF09AC0028C30D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				BD07883B1EFF09AC0028C30D /* AppDelegate.swift */,
 				BD07883D1EFF09AC0028C30D /* MapViewController.swift */,
 				B288DA4E1EFF12AC00F14ED8 /* NetworkRequestManager.swift */,
+				B288DA501EFF1F6100F14ED8 /* MapAnnotationManager.swift */,
 				BD0788421EFF09AC0028C30D /* Assets.xcassets */,
 				BD0788441EFF09AC0028C30D /* LaunchScreen.storyboard */,
 				BD0788471EFF09AC0028C30D /* Info.plist */,
@@ -215,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD07883E1EFF09AC0028C30D /* MapViewController.swift in Sources */,
+				B288DA511EFF1F6100F14ED8 /* MapAnnotationManager.swift in Sources */,
 				B288DA4F1EFF12AC00F14ED8 /* NetworkRequestManager.swift in Sources */,
 				BD07883C1EFF09AC0028C30D /* AppDelegate.swift in Sources */,
 			);
