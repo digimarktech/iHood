@@ -26,17 +26,6 @@ class LoginVC: UIViewController, UITextFieldDelegate {
         return imageView
     }()
     
-    //65 66 84
-    
-    let logoImageView: UIImageView = {
-        
-        let imageView = UIImageView()
-        imageView.translatesAutoresizingMaskIntoConstraints = false
-        imageView.contentMode = .scaleAspectFit
-        imageView.image = UIImage(named: "Vector-Smart-Object-Opal")
-        return imageView
-    }()
-    
     let nameContainerView = ShadowView()
     let emailContainerView2 = ShadowView()
     let passwordContainerView2 = ShadowView()
@@ -351,7 +340,6 @@ class LoginVC: UIViewController, UITextFieldDelegate {
         passwordContainerView2.backgroundColor = .white
         
         view.addSubview(backgroundImageView)
-        view.addSubview(logoImageView)
         view.addSubview(nameContainerView)
         view.addSubview(emailContainerView)
         view.addSubview(emailContainerView2)
@@ -368,11 +356,6 @@ class LoginVC: UIViewController, UITextFieldDelegate {
         backgroundImageView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
         backgroundImageView.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
         backgroundImageView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
-        
-        logoImageView.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 40).isActive = true
-        logoImageView.topAnchor.constraint(equalTo: view.topAnchor, constant: 40).isActive = true
-        logoImageView.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -40).isActive = true
-        logoImageView.heightAnchor.constraint(equalToConstant: 100).isActive = true
         
         nameContainerView.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 20).isActive = true
         nameContainerView.topAnchor.constraint(equalTo: view.topAnchor, constant: 250).isActive = true
